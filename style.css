@@ -62,3 +62,12 @@ div img{
     width: 50px;
     height:auto;
 }
+
+.flex_container{
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
