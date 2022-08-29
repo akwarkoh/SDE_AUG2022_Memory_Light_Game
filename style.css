@@ -1,4 +1,64 @@
 body{
-    background-color: aqua;
+    height: 100%;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+main{
+    background-image: url(https://media.istockphoto.com/photos/artificial-intelligence-digital-concept-abstract-brains-inside-light-picture-id1304452043?b=1&k=20&m=1304452043&s=170667a&w=0&h=Fl3jpqhehblefJKhwEBwisR5wMQUFgCMZBBxrrO5rH8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: center;
+    width: auto;
+    height: 1250px;
+    padding: 300px;
+    /* display: grid; */
+
+}
+
+.section1{
+    border: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 50px;
+    padding: 10px;
+    height: 40px;
+    align-items: center;
+
+}
+
+.section2{
+    border: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 50px;
+    padding: 10px;
+    height: 40px;
+    align-items: center;
+}
+
+.section3{
+    border: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 50px;
+    padding: 10px;
+    height: 40px;
+    align-items: center;
+    
+}
+.row1{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(50,1fr);
+    row-gap: 100px;
+    
+}
+
+div img{
+
+    width: 50px;
+    height:auto;
+}
